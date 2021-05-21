@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:seashell;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.main-container{
+    min-height: 68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ip-display, .location-display, .geo-display, .device{
+    font-size: calc(1rem + 1vw);
+    margin: 1rem;
+}
+.lookup-btn{
+    border: none;
+    background:#34495e;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 0.8rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: opacity 250ms linear;
+}
+
+.lookup-btn:hover{
+    opacity: 0.8;
+
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.footer{
+    text-align: center;
+    margin: 2rem;
+    font-size: 1rem;
+}
+.img{
+    height: 50px;
+    width: 200px;
+    margin: 0;
+
+}
